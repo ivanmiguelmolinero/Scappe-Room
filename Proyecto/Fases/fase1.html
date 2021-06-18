@@ -8,6 +8,8 @@
     <title>Fase 1</title>
 </head>
 <body onload="main()">
+    <br>
+    <button id="btn_fondo">Pulsar para mayor inmersión</button>
     <h1>¡Buenísimos días, amiguita!</h1>
     <p>¡Es el día de tu cumpleaños! Pero no empieza bien,
         Iván te ha cambiado la alarma y no para de sonar un
@@ -25,9 +27,19 @@
         <input type="submit" value="¡LO TENGO!" id="btn_solucion">
     </form>
     <div id="pistas">
-        <p>Pista 1</p>
-        <p>Pista 2</p>
-        <p>Pista 3</p>
+        <p id="Pista1">
+            <button id="btn_1">Pista primer tratamiento</button>
+        </p>
+        <p id="Pista2">
+            <button id="btn_2">Pista segundo tratamiento</button>
+        </p>
+        <p id="Pista3">
+            <button id="btn_3">Pista tercer tratamiento</button>
+        </p>
     </div>
+    <audio src="../Audios/felicidades.mp3" autoplay="true" loop="true" id="audio_fondo"></audio>
+    <audio src="../Audios/Pista1.mp3" id="audio_1"></audio>
+    <audio src="../Audios/Pista2.mp3" id="audio_2"></audio>
+    <audio src="../Audios/Pista3.mp3" id="audio_3"></audio>
 </body>
 </html>
