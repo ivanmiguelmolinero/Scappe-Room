@@ -43,7 +43,7 @@ function main() {
         
         //Compruebo si la solución es correcta
         if (solucion_correcta(solucion)) {
-            form.action = "../Scape-room.html";
+            form.action = "./fase2.html";
         } else {
             window.alert("Respuesta incorrecta");
         }
