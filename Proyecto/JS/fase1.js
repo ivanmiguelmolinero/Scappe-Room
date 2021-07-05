@@ -14,6 +14,7 @@ function main() {
     let btn_pista3 = document.getElementById('btn_3');
     let audio_pista3 = document.getElementById('audio_3');
     let audio_fondo = document.getElementById('audio_fondo');
+    let audio_error = document.getElementById('audio_error');
 
     //Variables para la música de fondo
     let btn_fondo = document.getElementById('btn_fondo')
@@ -45,6 +46,7 @@ function main() {
         if (solucion_correcta(solucion)) {
             form.action = "./fase2.html";
         } else {
+            audio_error.play();
             window.alert("Respuesta incorrecta");
         }
     }
