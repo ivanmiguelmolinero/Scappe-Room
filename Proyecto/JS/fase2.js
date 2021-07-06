@@ -33,7 +33,7 @@ function main () {
 
     btn_1.onclick = () => {
         if (pago1) {
-            pista_1.innerHTML += "<br>La parada de autobús está más cerca de lo que piensas."
+            pista_1.innerHTML += "La parada de autobús está más cerca de lo que piensas.";
         } else {
             pago1 = true;
             audio_pista1.play();
@@ -42,7 +42,7 @@ function main () {
 
     btn_2.onclick = () => {
         if (pago2) {
-            pista_2.innerHTML += "<br>No One."
+            pista_2.innerHTML += "No One."
         } else {
             pago2 = true;
             audio_pista2.play();
@@ -51,7 +51,7 @@ function main () {
 
     btn_3.onclick = () => {
         if (pago3) {
-            pista_3.innerHTML += "<br>A ese lugar vas a SUPERArte."
+            pista_3.innerHTML += "A ese lugar vas a SUPERArte."
         } else {
             pago3 = true;
             audio_pista3.play();
