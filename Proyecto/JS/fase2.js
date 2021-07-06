@@ -13,6 +13,7 @@ function main () {
     let pista_3 = document.getElementById('Pista3');
     let btn_3 = document.getElementById('btn_3');
     let audio_pista3 = document.getElementById('audio_3');
+    let audio_error = document.getElementById('audio_error');
 
     let pago1 = false;
     let pago2 = false;
@@ -25,6 +26,7 @@ function main () {
         if ((sol1 == '40.315') && (sol2 == '-3.851' || sol2 == '-3.850')) {
             form.action = "./fase3.html";
         } else {
+            audio_error.play();
             window.alert("Respuesta incorrecta");
         }
     }
