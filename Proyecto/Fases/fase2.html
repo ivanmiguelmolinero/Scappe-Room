@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../JS/fase2.js"></script>
+    <link rel="stylesheet" href="../CSS/fase2.css">
     <title>Fase 2</title>
 </head>
 <body onload="main()">
     <h1>Por fin, de camino al trabajo</h1>
-    <p>
+    <p id="text">
         Después de apagar la alarma que el gracioso de
         Iván te había puesto para "celebrar" tu cumpleaños,
         consigues desayunar y arreglarte para ir a trabajar...
@@ -21,22 +22,23 @@
         Como pista inicial te dejaré que una foto muy especial, allí me tomé."<br>
         NOTA: Introducir el resultado con 3 cifras decimales y poniendo un punto en vez de una coma. <br> Ejemplo: 3.141 
     </p>
-    <a href="https://www.google.es/maps/" target="_blank">Ir a Google Maps</a>
+    <div id="centro">
+        <a href="https://www.google.es/maps/" target="_blank" id="link"><img src="../Imagenes/mapa.png" alt="Google Maps" id="mapa"></a>
     <br><br>
     <form action="" id="formulario">
         Coordenada 1: <input type="text" name="" id="Coordenada 1"><br>
         Coordenada 2: <input type="text" name="" id="Coordenada 2"><br><br>
-        <input type="submit" value="¡LO ENCONTRÉ!" id="btn_solucion">
-    </form>
+        <input type="submit" value="¡LO ENCONTRÉ!" id="btn_solucion" class="btn first">
+    </div>
     <div id="pistas">
         <p id="Pista1">
-            <button id="btn_1">Pista 1</button>
+            <button id="btn_1" class="btn fourth">Pista 1</button>
         </p>
         <p id="Pista2">
-            <button id="btn_2">Pista 2</button>
+            <button id="btn_2" class="btn fourth">Pista 2</button>
         </p>
         <p id="Pista3">
-            <button id="btn_3">Pista 3</button>
+            <button id="btn_3" class="btn fourth">Pista 3</button>
         </p>
     </div>
     <audio src="../Audios/Fase2/Pista1.mp3" id="audio_1"></audio>

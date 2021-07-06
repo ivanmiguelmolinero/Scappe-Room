@@ -1,0 +1,143 @@
+@font-face{
+    font-family: Komika;
+    src: url(./KOMTXTTI.ttf);
+}
+@font-face{
+    font-family: Explore;
+    src: url(./Explore.ttf);
+}
+@font-face{
+    font-family: ExploraPista;
+    src: url(./Explora.ttf);
+}
+@font-face{
+    font-family: Pencil;
+    src: url(./Pencil-Regular.ttf);
+}
+
+body {
+    background-image: url(../Imagenes/fase2\ wallpaper.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Explore;
+    font-size: 90px;
+    color: rgba(141, 73, 37, 0.877);
+    text-align: center;
+}
+
+#formulario {
+    text-align: center;
+    margin: 1%;
+    font-family: Pencil;
+    font-size: 30px;
+}
+
+#centro {
+    background-image: url(../Imagenes/nota.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+#btn_solucion:hover {
+    cursor: pointer;
+}
+
+#link {
+    margin-left: 46%;
+}
+
+#mapa {
+    text-align: center;
+    height: 120px;
+}
+#mapa:hover {
+    height: 130px;
+}
+
+#text {
+    border-style: groove;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: Komika;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+#pistas {
+    border-style: hidden;
+    font-family: ExploraPista;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: rgb(255, 254, 254);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    margin-left: 43%;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+  .fourth {
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
