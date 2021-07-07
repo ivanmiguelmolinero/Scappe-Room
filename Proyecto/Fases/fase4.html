@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JS/fase4.js"></script>
+    <title>Fase 4</title>
+</head>
+<body onload="main()">
+    <h1>El último gran problema</h1>
+    <p>
+        ¡Bien! Al final has podido bajar del autobús y dirigirte a FEMM sin más
+        problemas o eso pensabas... Resulta que has llegado a FEMM y la puerta está
+        cerrada y a su lado hay una nota que dice lo siguiente: <br>
+        "Hola, por cuestiones de seguridad he implementado un sistema de apertura de puerta
+        por código. Para abrir la puerta es necesario pulsar en un orden concreto los botones que hay debajo de esta nota.<br>
+        Atentamente, Ana. "
+    </p>
+    <div id="botones">
+        <button id="btn_1">1</button>
+        <button id="btn_2">2</button>
+        <button id="btn_3">3</button>
+        <button id="btn_4">4</button>
+        <button id="btn_5">5</button>
+    </div>
+    <p id="btn_puerta">
+    </p>
+    <div id="pistas">
+        <p id="Pista1">
+            <button id="btn_pista1" class="btn fourth">Pista 1</button>
+        </p>
+        <p id="Pista2">
+            <button id="btn_pista2" class="btn fourth">Pista 2</button>
+        </p>
+        <p id="Pista3">
+            <button id="btn_pista3" class="btn fourth">Pista 3</button>
+        </p>
+    </div>
+    <audio src="../Audios/Fase4/Pista1.mp3" id="audio_1"></audio>
+    <audio src="../Audios/Fase4/Pista2.mp3" id="audio_2"></audio>
+    <audio src="../Audios/Fase4/Pista3.mp3" id="audio_3"></audio>
+    <audio src="../Audios/Fase4/acierto.mp3" id="audio_acierto"></audio>
+    <audio src="../Audios/Fase4/puzzle_resuelto.mp3" id="audio_puzzlecompletado"></audio>
+    <audio src="../Audios/error.mp3" id="audio_error"></audio>
+</body>
+</html>
