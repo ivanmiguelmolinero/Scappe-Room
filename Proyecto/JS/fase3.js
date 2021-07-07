@@ -101,7 +101,7 @@ function main() {
         btn_sol.onclick = () => {
             contraseña = pswd.value.toUpperCase();
             if (contraseña == 'AMIGUITA'){
-                formu.action = '../Scape-room.html';
+                formu.action = './fase4.html';
             } else {
                 audio_error.play();
                 window.alert('Respuesta incorrecta');
