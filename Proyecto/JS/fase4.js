@@ -90,7 +90,7 @@ function main() {
     btn_5.onclick = () => {
         if (btn_3_first && btn_1_second && btn_4_third && btn_2_fourth) {
             btn_5.disabled = true;
-            btn_5_fourth = true;
+            btn_5_fifth = true;
             audio_resuelto.play();
             btn_puerta.innerHTML = btn_victoria;
         } else {
