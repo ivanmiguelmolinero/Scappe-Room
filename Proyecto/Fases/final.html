@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/final.css">
+  <script src=""></script>
+  <title>Final</title>
+</head>
+
+<body onload="main()">
+  <div class="relativeContainer">
+    <button>SÍ</button>
+    <button id="botonQueSeMueve">
+      NO
+    </button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>
+    $("#botonQueSeMueve").hover(function () {
+      $("#botonQueSeMueve").css("top", `${Math.random() * 500}px`);
+      $("#botonQueSeMueve").css("left", `${Math.random() * 800}px`);
+    });
+  </script>
+</body>
+
+</html>

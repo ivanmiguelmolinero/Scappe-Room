@@ -1,0 +1,7 @@
+.relativeContainer {
+    position: relative;
+  }
+
+  #botonQueSeMueve {
+    position: absolute;
+  }
