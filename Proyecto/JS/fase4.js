@@ -133,7 +133,7 @@ function main() {
 
     pista_2.onclick = () => {
         if (pago2){
-            txt_pista2.innerHTML += "<br>En ningún momento van en orden.";
+            txt_pista2.innerHTML += "<br>En ningun momento van en orden.";
         } else {
             audio_pista2.play();
             pago2 = true;
@@ -142,7 +142,7 @@ function main() {
 
     pista_3.onclick = () => {
         if (pago3){
-            txt_pista3.innerHTML += "<br>Al terminar 'por el culo te la hinco' puedes rimar.";
+            txt_pista3.innerHTML += '<<br>Al terminar, por el culo te la hinco, puedes rimar.';
         } else {
             audio_pista3.play();
             pago3 = true;

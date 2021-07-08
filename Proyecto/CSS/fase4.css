@@ -1,0 +1,145 @@
+@font-face{
+    font-family: Komika;
+    src: url(./KOMTXTTI.ttf);
+}
+@font-face{
+    font-family: SpaceFont;
+    src: url(./Space\ Rave.ttf);
+}
+@font-face{
+    font-family: BoomFont;
+    src: url(./boomface\ pg.otf);
+}
+
+body {
+    background-image: url(../Imagenes/fase4\ wallpaper.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: SpaceFont;
+    font-size: 70px;
+    color: rgba(156, 152, 152, 0.781);
+    text-align: center;
+}
+
+#text {
+    border-style: groove;
+    border-radius: 10px;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: Komika;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+#botones {
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(150, 150, 150);
+    padding: 1%;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+.btn_num {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0.5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    width: 55px;
+    height: 55px;
+  }
+  .btn_num:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .btn_num:disabled {
+    background-color: #1884ba48;;
+  }
+
+#pistas {
+    border-style: hidden;
+    font-family: BoomFont;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: rgb(255, 254, 254);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.boton{
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+    width: 120px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#10B87B;
+}
+ 
+.boton:after,
+.boton:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+.boton:before{
+	left: -48%;
+}
+ 
+.boton:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#12C987
+}
+ 
+.boton:hover:after,
+.boton:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+.boton:hover:after{
+	right: 130%;
+}
+ 
+.boton:hover:before{
+	left: 130%;
+}
