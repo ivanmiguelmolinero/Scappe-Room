@@ -34,7 +34,7 @@ function main() {
     //Zona donde aparecerá el botón para abrir la puerta
     let btn_puerta = document.getElementById('btn_puerta');
     //Texto HTML que aparece si acierta el orden
-    let btn_victoria = '<a href="../Scape-room.html"><button>¡ABRIR PUERTA!</button></a>'
+    let btn_victoria = '<a href="../Scape-room.html"><button id="button"class="grow_ellipse">¡ABRIR PUERTA!</button></a>'
 
     //Audios
     let audio_error = document.getElementById('audio_error');

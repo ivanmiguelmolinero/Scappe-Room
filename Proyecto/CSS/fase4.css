@@ -71,6 +71,57 @@ h1 {
     background-color: #1884ba48;;
   }
 
+#btn_puerta {
+    text-align: center;
+}
+
+#button {
+    font-size: 1.5em;
+    background: #3498db;
+    color: #fff;
+    border: 0.25rem solid #3498db;
+    padding: 0.85em 0.75em;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  #button:hover {
+    color: #3498db;
+  }
+  #button::after {
+    content: "";
+    background: #ecf0f1;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+
+button[class^="grow"]::after {
+    transition: all 0.3s ease;
+  }
+  button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+  }
+
+button.grow_ellipse::after {
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    line-height: 8.34em;
+    transform: scale(0, 0);
+  }
+  button.grow_ellipse:hover::after {
+    transform: scale(1, 1);
+  }
+
+.grow_ellipse:hover{
+    cursor:pointer;
+}
+
 #pistas {
     border-style: hidden;
     font-family: BoomFont;
