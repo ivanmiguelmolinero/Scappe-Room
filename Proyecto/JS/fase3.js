@@ -2,11 +2,14 @@ function main() {
 
     // Pasajeros
     let Ivan = document.getElementById('Ivan');
+    let audio_Ivan = document.getElementById('audio_Ivan')
     let Maria = document.getElementById('Maria');
     let Juan = document.getElementById('Juan');
+    let audio_Juan = document.getElementById('audio_Juan')
     let Joel = document.getElementById('Joel');
     let audio_Joel = document.getElementById('audio_Joel')
     let Esther = document.getElementById('Esther');
+    let audio_Esther = document.getElementById('audio_Esther')
 
     //Audio de error
     let audio_error = document.getElementById('audio_error');
@@ -25,7 +28,7 @@ function main() {
     //HTML que añadir en el formulario
     const formulario = '<form action="" id="formulario">' +
     'Contraseña: <input type="text" name="" id="Contraseña">' + '<br>' +
-    '<input type="submit" value="¡ESA ES!" id="btn_solucion" class="btn first">';
+    '<input type="submit" value="¡ESA ES!" id="btn_solucion" class="btn sixth">';
 
     //Variables para hacer aparecer el formulario
     let pswd;
@@ -41,6 +44,7 @@ function main() {
     }
 
     Ivan.onclick = () => {
+        audio_Ivan.play();
         Ivan_ON = true;
         if (all_ON()) {
             form.innerHTML = formulario;
@@ -63,6 +67,7 @@ function main() {
     }
 
     Juan.onclick = () => {
+        audio_Juan.play();
         Juan_ON = true;
         if (all_ON()) {
             form.innerHTML = formulario;
@@ -86,6 +91,7 @@ function main() {
     }
 
     Esther.onclick = () => {
+        audio_Esther.play();
         Esther_ON = true;
         if (all_ON()) {
             form.innerHTML = formulario;
