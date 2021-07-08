@@ -51,6 +51,7 @@ function main() {
             form_ON = true;
             pswd = document.getElementById('Contraseña');
             btn_sol = document.getElementById('btn_solucion');
+            formu = document.getElementById('formulario');
             comprobar_respuesta();
         }
     }
@@ -62,6 +63,7 @@ function main() {
             form_ON = true;
             pswd = document.getElementById('Contraseña');
             btn_sol = document.getElementById('btn_solucion');
+            formu = document.getElementById('formulario');
             comprobar_respuesta();
         }
     }
@@ -74,6 +76,7 @@ function main() {
             form_ON = true;
             pswd = document.getElementById('Contraseña');
             btn_sol = document.getElementById('btn_solucion');
+            formu = document.getElementById('formulario');
             comprobar_respuesta();
         }
     }
@@ -86,6 +89,7 @@ function main() {
             form_ON = true;
             pswd = document.getElementById('Contraseña');
             btn_sol = document.getElementById('btn_solucion');
+            formu = document.getElementById('formulario');
             comprobar_respuesta();
         }
     }
