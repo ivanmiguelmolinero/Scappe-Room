@@ -4,6 +4,7 @@ function main() {
     let Ivan = document.getElementById('Ivan');
     let audio_Ivan = document.getElementById('audio_Ivan')
     let Maria = document.getElementById('Maria');
+    let audio_Maria = document.getElementById('audio_Maria')
     let Juan = document.getElementById('Juan');
     let audio_Juan = document.getElementById('audio_Juan')
     let Joel = document.getElementById('Joel');
@@ -57,6 +58,7 @@ function main() {
     }
 
     Maria.onclick = () => {
+        audio_Maria.play();
         Maria_ON = true;
         if (all_ON()) {
             form.innerHTML = formulario;
